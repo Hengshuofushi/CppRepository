@@ -1,2 +1,2 @@
-# ThreadPool
-学习写线程池实例，使用C++11实现一个半同步半异步线程池
+LEARNING LOG
+
