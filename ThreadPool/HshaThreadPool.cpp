@@ -1,3 +1,9 @@
+/**
+ * 半同步半异步线程池
+ * 1. 一个线程专用来监听是否有任务，如果有则放入队列（同步）
+ * 2. 线程池维护一个任务队列
+ * 3. 其余线程处理任务队列中的任务（异步）
+ */
 #include "RequestQueue.h"
 #include <functional>
 #include <vector>
@@ -6,16 +12,16 @@
 const int MAX_TASK_NUMBER = 100;
 using Task = std::function<void()>;
 
-class ThreadPool
+class HshaThreadPool
 {
 public:
-	ThreadPool(int numThreads = std::thread::hardware_concurrency()) : 
+	HshaThreadPool(int numThreads = std::thread::hardware_concurrency()) : 
 		numThreads(numThreads),
 		m_queue(MAX_TASK_NUMBER)
 	{
 		Start();
 	};
-	~ThreadPool() 
+	~HshaThreadPool() 
 	{
 		std::call_once(m_stopOnceFlag, [this] {Stop(); });
 	};
@@ -25,7 +31,7 @@ public:
 		for (int i=0; i < numThreads; i++)
 		{
 			m_threads.push_back(std::make_shared<std::thread>(
-				&ThreadPool::Run,this));
+				&HshaThreadPool::Run,this));
 		}
 	};
 
