@@ -152,11 +152,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Module.cpp" />
+    <ClCompile Include="ModuleA.cpp" />
+    <ClCompile Include="ModuleB.cpp" />
     <ClCompile Include="ModuleConn.cpp" />
     <ClCompile Include="MsgServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Module.h" />
+    <ClInclude Include="ModuleA.h" />
+    <ClInclude Include="ModuleB.h" />
     <ClInclude Include="MsgServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

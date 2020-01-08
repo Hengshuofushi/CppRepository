@@ -18,10 +18,29 @@ MsgServer* MsgServer::GetInstance()
 	return instance;
 }
 
-void MsgServer::Notify(Module* mod, const std::string& msg)
+void MsgServer::RegsterClient(Module* mod)
 {
 	if (mod)
 	{
-		mod->RecvMessage(mod, msg);
+		modMap[mod->GetName()] = mod;
+	}
+}
+
+void MsgServer::UnregsterClient(Module* mod)
+{
+	if (mod)
+	{
+		if (modMap[mod->GetName()])
+		{
+			modMap.erase(mod->GetName());
+		}
+	}
+}
+
+void MsgServer::Notify(const std::string& mod, const std::string& msg)
+{
+	if (!mod.empty() && modMap[mod])
+	{
+		modMap[mod]->RecvMessage(msg);
 	}
 }

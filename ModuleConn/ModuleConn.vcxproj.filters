@@ -24,12 +24,24 @@
     <ClCompile Include="MsgServer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ModuleA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Module.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MsgServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleB.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

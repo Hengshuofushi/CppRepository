@@ -1,15 +1,15 @@
-﻿#include "MsgServer.h"
-#include "Module.h"
+﻿#include "ModuleA.h"
+#include "ModuleB.h"
 #include <iostream>
 
 int main()
 {
 	MsgServer* server = MsgServer::GetInstance();
-	Module* a = new Module;
-	Module* b = new Module;
+	Module* a = new ModuleA("a");
+	Module* b = new ModuleB("b");
 	a->RegMsgService(server);
 	b->RegMsgService(server);
-	a->SendMessage(b, "ssss");
+	a->SendMessage("b", "ssss");
 }
 
 
