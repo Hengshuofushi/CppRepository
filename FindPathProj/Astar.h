@@ -42,8 +42,8 @@ private:
 	std::list<Node*> closelist;
 
 	bool IsInCloseList(int x, int y);
-	bool IsInOpenList(int x, int y);
 	void PutOpenList(Node* node);
+	
 
 };
 

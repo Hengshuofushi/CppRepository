@@ -1,6 +1,7 @@
 #include "Astar.h"
 #include <iostream>
 #include <cmath>
+#include <algorithm>
 #include <windows.h>
 using std::cout;
 using std::endl;
@@ -24,43 +25,35 @@ bool AstarMethod::IsInCloseList(int x, int y)
 	}
 	return false;
 }
-bool AstarMethod::IsInOpenList(int x, int y)
-{
-	for (auto node : openlist)
-	{
-		if (node->X == x && node->Y == y)
-		{
-			return true;
-		}
-	}
-	return false;
-}
+
 void AstarMethod::PutOpenList(Node* node) //openlist按F从小到大排列
 {
-	for (auto it=openlist.begin();it!=openlist.end();it++)
+	auto it = std::find_if(std::begin(openlist), std::end(openlist), [node](Node* on) {
+		return on->X == node->X && on->Y == node->Y;
+		}
+	);
+	if (it != std::end(openlist))
 	{
-		if (node->X == (*it)->X && node->Y == (*it)->Y) //如果本节点已在openlist且G更小则更新
+		if (node->G < (*it)->G)
 		{
-			if (node->G < (*it)->G)
-			{
-				(*it)->parent = node->parent;
-				(*it)->G = node->G;
-				(*it)->F = (*it)->G + (*it)->H;
-			}
+			(*it)->parent = node->parent;
+			(*it)->G = node->G;
+			(*it)->F = node->G + node->H;
+		}
+		return;
+	}
+
+	for (auto it = openlist.begin(); it != openlist.end(); it++)
+	{
+		if (node->F < (*it)->F) //F值小的放前面
+		{
+			openlist.insert(it, node);
 			return;
 		}
-		else
+		else if (node->F == (*it)->F && node->H <= (*it)->H) //F值相等，则H值小的放前面
 		{
-			if (node->F < (*it)->F) //F值小的放前面
-			{
-				openlist.insert(it, node);
-				return;
-			}
-			else if (node->F == (*it)->F && node->H <= (*it)->H) //F值相等，则H值小的放前面
-			{
-				openlist.insert(it, node);
-				return;
-			}
+			openlist.insert(it, node);
+			return;
 		}
 	}
 	openlist.push_back(node);
@@ -69,9 +62,15 @@ void AstarMethod::PutOpenList(Node* node) //openlist按F从小到大排列
 void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 {
 	int curH = (end_x - start_x + end_y - start_y) * STRAIT_VALUE_PER_STEP;
-	Node startNode = { nullptr, start_x, start_y, curH, 0, curH };
-	openlist.push_back(&startNode);
-	Node* curNode = &startNode;
+	Node* startNode = new Node;
+	startNode->parent = nullptr;
+	startNode->X = start_x;
+	startNode->Y = start_y;
+	startNode->G = 0;
+	startNode->H = curH;
+	startNode->F = curH;
+	openlist.push_back(startNode);
+	Node* curNode = startNode;
 	bool isFind = false;
 	while (!isFind)
 	{
@@ -86,16 +85,20 @@ void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 		}
 		cout << curNode->X << "," << curNode->Y << endl;
 		//遍历当前节点周围的8个
-		for (int x = curNode->X - 1; x <= curNode->X + 1 && x >= 0 && x <= map.size()-1 && !isFind; x++)
+		for (int x = curNode->X - 1; x <= curNode->X + 1 && !isFind; x++)
 		{
-			for (int y = curNode->Y - 1; y <= curNode->Y + 1 && y >= 0 && y <= map[0].size()-1 && !isFind; y++)
+			for (int y = curNode->Y - 1; y <= curNode->Y + 1 && !isFind; y++)
 			{
+				if (x <0 || x>=map.size() || y<0 || y>= map[0].size())
+				{
+					continue;
+				}
 				if (x == end_x && y == end_y)
 				{
 					isFind = true;
 				}
 				bool t = IsInCloseList(x, y);
-				if (map[x][y] > 0 || IsInCloseList(x, y)) //忽略斜方向的点、障碍和closelist中的节点
+				if (map[x][y] > 0 || IsInCloseList(x, y)) //忽略障碍和closelist中的节点
 				{
 					continue;
 				}
@@ -119,15 +122,15 @@ void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 				tNode->F = tG + tH;
 				PutOpenList(tNode);
 			}
+			//Sleep(500);
 		}
-		Sleep(500);
 	}
 	cout << "route is:" << endl;
-	cout << "2,5" << endl;
+	cout << "(2,5)";
 	while (true)
 	{
-		cout << "<-";
-		cout << curNode->X << "," << curNode->Y << endl;
+		cout << " <- ";
+		cout << "(" << curNode->X << "," << curNode->Y << ")";
 		if (curNode->parent != nullptr)
 		{
 			curNode = curNode->parent;
