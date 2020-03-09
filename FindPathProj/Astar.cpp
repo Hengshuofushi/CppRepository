@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
-#include <windows.h>
+
 using std::cout;
 using std::endl;
 using std::abs;
@@ -83,6 +83,10 @@ void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 			closelist.push_back(*it);
 			openlist.erase(it);
 		}
+		else
+		{
+			break;
+		}
 		cout << curNode->X << "," << curNode->Y << endl;
 		//遍历当前节点周围的8个
 		for (int x = curNode->X - 1; x <= curNode->X + 1 && !isFind; x++)
@@ -122,8 +126,12 @@ void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 				tNode->F = tG + tH;
 				PutOpenList(tNode);
 			}
-			//Sleep(500);
 		}
+	}
+	if (!isFind)
+	{
+		cout << "Finished: path not found" << endl;
+		return;
 	}
 	cout << "route is:" << endl;
 	cout << "(2,5)";
