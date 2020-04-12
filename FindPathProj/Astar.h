@@ -13,26 +13,21 @@ d. 停止，当你
 ◆ 查找终点失败，并且 open list 是空的，此时没有路径。
 3.保存路径。从终点开始，每个方格沿着父节点移动直至起点，这就是你的路径。
  */
-#define  _ASTAR_
-#ifdef _ASTAR_
 #include <list>
 #include "FindPathMethod.h"
-#include <iostream>
-class Node
-{
-public:
-	Node* parent; // parent node
-	int X; // x坐标
-	int Y; // y坐标
-	int F; // 起始点到终点的花费 F = G+ H
-	int G; // 起始点到本点的花费
-	int H; // 本点到终点的花费
-protected:
-private:
-};
 
 class AstarMethod : public FindPathMethod
 {
+	class Node
+	{
+	public:
+		Node* parent; // parent node
+		int X; // x坐标
+		int Y; // y坐标
+		int F; // 起始点到终点的花费 F = G+ H
+		int G; // 起始点到本点的花费
+		int H; // 本点到终点的花费
+	};
 public:
 	AstarMethod(vector<vector<int> > map);
 	void FindPath(int start_x, int start_y, int end_x, int end_y) override;
@@ -43,9 +38,5 @@ private:
 
 	bool IsInCloseList(int x, int y);
 	void PutOpenList(Node* node);
-	
-
 };
 
-
-#endif

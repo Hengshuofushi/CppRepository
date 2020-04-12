@@ -9,6 +9,8 @@ public:
 	
 protected:
 	vector<vector<int> > map;
+	const int STRAIT_VALUE_PER_STEP = 10;
+	const int ITA_VALUE_PER_STEP = 14;
 private:
 	
 };

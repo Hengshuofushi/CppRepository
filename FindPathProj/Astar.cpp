@@ -7,9 +7,6 @@ using std::cout;
 using std::endl;
 using std::abs;
 
-const int STRAIT_VALUE_PER_STEP = 10;
-const int ITA_VALUE_PER_STEP = 14;
-
 AstarMethod::AstarMethod(vector<vector<int> > map)
 {
 	this->map.assign(map.begin(), map.end());
@@ -97,16 +94,15 @@ void AstarMethod::FindPath(int start_x, int start_y, int end_x, int end_y)
 				{
 					continue;
 				}
-				if (x == end_x && y == end_y)
-				{
-					isFind = true;
-				}
-				bool t = IsInCloseList(x, y);
+
 				if (map[x][y] > 0 || IsInCloseList(x, y)) //忽略障碍和closelist中的节点
 				{
 					continue;
 				}
-
+				if (x == end_x && y == end_y)
+				{
+					isFind = true;
+				}
 				int tH = (std::abs(end_x - x) + std::abs(end_y - y)) * STRAIT_VALUE_PER_STEP;
 				int tG = curNode->G;
 				if (abs(x - curNode->X) + abs(y - curNode->Y) > 1) //斜角上的

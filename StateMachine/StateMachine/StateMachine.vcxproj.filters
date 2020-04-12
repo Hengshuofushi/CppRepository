@@ -15,25 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Astar.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="register_machine.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="register_machine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Dijstra.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Astar.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FindPathMethod.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Dijstra.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

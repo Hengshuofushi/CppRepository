@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{A0DB59C7-F6A9-4F99-B441-D2B414C70A2A}</ProjectGuid>
-    <RootNamespace>FindPathProj</RootNamespace>
+    <ProjectGuid>{85897A50-8893-42D0-AE87-ACC9288DE2DE}</ProjectGuid>
+    <RootNamespace>StateMachine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,14 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Astar.cpp" />
-    <ClCompile Include="Dijstra.cpp" />
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Astar.h" />
-    <ClInclude Include="Dijstra.h" />
-    <ClInclude Include="FindPathMethod.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="register_machine.cpp" />
+    <ClCompile Include="register_machine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
