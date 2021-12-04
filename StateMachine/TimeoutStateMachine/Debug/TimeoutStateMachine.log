@@ -1,0 +1,209 @@
+﻿  main.cpp
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(49,17): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(54,17): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(60,17): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(65,17): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(70,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(74,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(79,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(83,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(88,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(93,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(167,28): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(173,27): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(182,28): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(189,27): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(23,37): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(31,37): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(38,20): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(45,20): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(19,13): error C2039: “ptrdiff_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(19,22): error C2873: “ptrdiff_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(91,12): error C2039: “max_align_t”: 不是“std”的成员
+E:\GitRepository\Own\CppRepository\StateMachine\TimeoutStateMachine\predefined C++ types (compiler internal)(349): message : 参见“std”的声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(91,23): error C2873: “max_align_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(20,18): error C2039: “fabs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(24,18): error C2039: “fabsf”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(28,18): error C2039: “fabsl”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,13): error C2039: “div_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,18): error C2873: “div_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,13): error C2039: “ldiv_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,19): error C2873: “ldiv_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,13): error C2039: “abort”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,18): error C2873: “abort”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,13): error C2039: “abs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,16): error C2873: “abs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,13): error C2039: “atof”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,17): error C2873: “atof”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,13): error C2039: “atoi”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,17): error C2873: “atoi”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,13): error C2039: “atol”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,17): error C2873: “atol”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,13): error C2039: “bsearch”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,20): error C2873: “bsearch”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,13): error C2039: “calloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,19): error C2873: “calloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,13): error C2039: “div”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,16): error C2873: “div”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,13): error C2039: “exit”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,17): error C2873: “exit”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,13): error C2039: “free”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,17): error C2873: “free”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,13): error C2039: “labs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,17): error C2873: “labs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,13): error C2039: “ldiv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,17): error C2873: “ldiv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,13): error C2039: “malloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,19): error C2873: “malloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,13): error C2039: “mblen”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,18): error C2873: “mblen”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,13): error C2039: “mbstowcs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,21): error C2873: “mbstowcs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(51,13): error C2039: “mbtowc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(51,19): error C2873: “mbtowc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(52,13): error C2039: “qsort”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(52,18): error C2873: “qsort”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(53,13): error C2039: “rand”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(53,17): error C2873: “rand”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(54,13): error C2039: “realloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(54,20): error C2873: “realloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(55,13): error C2039: “srand”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(55,18): error C2873: “srand”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(56,13): error C2039: “strtod”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(56,19): error C2873: “strtod”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(57,13): error C2039: “strtol”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(57,19): error C2873: “strtol”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(58,13): error C2039: “strtoul”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(58,20): error C2873: “strtoul”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(59,13): error C2039: “wcstombs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(59,21): error C2873: “wcstombs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(60,13): error C2039: “wctomb”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(60,19): error C2873: “wctomb”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(62,13): error C2039: “lldiv_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(62,20): error C2873: “lldiv_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(65,13): error C2039: “getenv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(65,19): error C2873: “getenv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(66,13): error C2039: “system”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(66,19): error C2873: “system”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(69,13): error C2039: “atoll”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(69,18): error C2873: “atoll”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(70,13): error C2039: “llabs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(70,18): error C2873: “llabs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(71,13): error C2039: “lldiv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(71,18): error C2873: “lldiv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(72,13): error C2039: “strtof”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(72,19): error C2873: “strtof”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(73,13): error C2039: “strtold”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(73,20): error C2873: “strtold”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(74,13): error C2039: “strtoll”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(74,20): error C2873: “strtoll”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(75,13): error C2039: “strtoull”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(75,21): error C2873: “strtoull”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,13): error C2039: “_Exit”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,18): error C2873: “_Exit”: 符号不能用在 using 声明中
+  timeout_state_marchine.cpp
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,18): fatal error C1003: 错误计数超过 100；正在停止编译
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(49,17): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(54,17): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(60,17): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(65,17): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(70,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(74,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(79,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(83,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(88,16): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(93,16): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(167,28): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(173,27): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(182,28): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(189,27): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(23,37): error C2323: “tools::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(31,37): error C2323: “tools::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(38,20): error C2323: “tools::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(45,20): error C2323: “tools::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(19,13): error C2039: “ptrdiff_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(19,22): error C2873: “ptrdiff_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(91,12): error C2039: “max_align_t”: 不是“std”的成员
+E:\GitRepository\Own\CppRepository\StateMachine\TimeoutStateMachine\predefined C++ types (compiler internal)(349): message : 参见“std”的声明
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstddef(91,23): error C2873: “max_align_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(20,18): error C2039: “fabs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(24,18): error C2039: “fabsf”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(28,18): error C2039: “fabsl”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,13): error C2039: “div_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,18): error C2873: “div_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,13): error C2039: “ldiv_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,19): error C2873: “ldiv_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,13): error C2039: “abort”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,18): error C2873: “abort”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,13): error C2039: “abs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,16): error C2873: “abs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,13): error C2039: “atof”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,17): error C2873: “atof”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,13): error C2039: “atoi”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,17): error C2873: “atoi”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,13): error C2039: “atol”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,17): error C2873: “atol”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,13): error C2039: “bsearch”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,20): error C2873: “bsearch”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,13): error C2039: “calloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,19): error C2873: “calloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,13): error C2039: “div”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,16): error C2873: “div”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,13): error C2039: “exit”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,17): error C2873: “exit”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,13): error C2039: “free”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,17): error C2873: “free”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,13): error C2039: “labs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,17): error C2873: “labs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,13): error C2039: “ldiv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,17): error C2873: “ldiv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,13): error C2039: “malloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,19): error C2873: “malloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,13): error C2039: “mblen”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,18): error C2873: “mblen”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,13): error C2039: “mbstowcs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,21): error C2873: “mbstowcs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(51,13): error C2039: “mbtowc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(51,19): error C2873: “mbtowc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(52,13): error C2039: “qsort”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(52,18): error C2873: “qsort”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(53,13): error C2039: “rand”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(53,17): error C2873: “rand”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(54,13): error C2039: “realloc”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(54,20): error C2873: “realloc”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(55,13): error C2039: “srand”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(55,18): error C2873: “srand”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(56,13): error C2039: “strtod”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(56,19): error C2873: “strtod”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(57,13): error C2039: “strtol”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(57,19): error C2873: “strtol”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(58,13): error C2039: “strtoul”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(58,20): error C2873: “strtoul”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(59,13): error C2039: “wcstombs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(59,21): error C2873: “wcstombs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(60,13): error C2039: “wctomb”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(60,19): error C2873: “wctomb”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(62,13): error C2039: “lldiv_t”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(62,20): error C2873: “lldiv_t”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(65,13): error C2039: “getenv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(65,19): error C2873: “getenv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(66,13): error C2039: “system”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(66,19): error C2873: “system”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(69,13): error C2039: “atoll”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(69,18): error C2873: “atoll”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(70,13): error C2039: “llabs”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(70,18): error C2873: “llabs”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(71,13): error C2039: “lldiv”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(71,18): error C2873: “lldiv”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(72,13): error C2039: “strtof”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(72,19): error C2873: “strtof”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(73,13): error C2039: “strtold”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(73,20): error C2873: “strtold”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(74,13): error C2039: “strtoll”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(74,20): error C2873: “strtoll”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(75,13): error C2039: “strtoull”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(75,21): error C2873: “strtoull”: 符号不能用在 using 声明中
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,13): error C2039: “_Exit”: 不是“`global namespace'”的成员
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,18): error C2873: “_Exit”: 符号不能用在 using 声明中
+  正在生成代码...
+D:\VisualStudio2019\Install\VC\Tools\MSVC\14.23.28105\include\cstdlib(77,18): fatal error C1003: 错误计数超过 100；正在停止编译

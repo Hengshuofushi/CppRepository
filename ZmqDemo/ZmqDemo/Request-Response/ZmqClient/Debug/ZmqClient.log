@@ -1,0 +1,12 @@
+﻿  ZmqClient.cpp
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_init，该符号在函数 "private: void __thiscall ZmqClient::InitZmq(void)" (?InitZmq@ZmqClient@@AAEXXZ) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init，该符号在函数 "private: void __thiscall ZmqClient::Run(void)" (?Run@ZmqClient@@AAEXXZ) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init_size，该符号在函数 "public: void __thiscall ZmqClient::SendRequest(char const *)" (?SendRequest@ZmqClient@@QAEXPBD@Z) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_data，该符号在函数 "public: void __thiscall ZmqClient::SendRequest(char const *)" (?SendRequest@ZmqClient@@QAEXPBD@Z) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_socket，该符号在函数 "private: void __thiscall ZmqClient::InitZmq(void)" (?InitZmq@ZmqClient@@AAEXXZ) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_close，该符号在函数 "public: __thiscall ZmqClient::~ZmqClient(void)" (??1ZmqClient@@QAE@XZ) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_connect，该符号在函数 "private: void __thiscall ZmqClient::InitZmq(void)" (?InitZmq@ZmqClient@@AAEXXZ) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_send，该符号在函数 "public: void __thiscall ZmqClient::SendRequest(char const *)" (?SendRequest@ZmqClient@@QAEXPBD@Z) 中被引用
+ZmqClient.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_recv，该符号在函数 "private: void __thiscall ZmqClient::Run(void)" (?Run@ZmqClient@@AAEXXZ) 中被引用
+E:\GitRepository\libs\libzmq-v141-x64-4_3_2\libzmq.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\GitRepository\Own\CppRepository\ZmqDemo\ZmqDemo\Debug\ZmqClient.exe : fatal error LNK1120: 9 个无法解析的外部命令

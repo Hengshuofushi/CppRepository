@@ -1,7 +1,5 @@
 #pragma once
-/**
- * 请求队列，同步线程的请求都放入队列
- */
+
 #include <queue>
 #include <condition_variable>
 #include <memory>
@@ -12,7 +10,16 @@
 using std::cout;
 using std::endl;
 
-template <typename T>
+class BaseTask
+{
+public:
+	BaseTask() = default;
+	virtual ~BaseTask() = default;
+	virtual void Run() = 0;
+	virtual bool Validate() { return true; }
+};
+using Task = std::shared_ptr<BaseTask>;
+
 class RequestQueue
 {
 public:
@@ -20,26 +27,35 @@ public:
 	{
 		this->m_maxSize = size;
 		this->m_isStop = false;
+		this->isSync = false;
 	};
 	~RequestQueue() 
 	{
-		//std::call_once(m_stopOnceFlag, [this] {Stop(); });
+		std::call_once(m_stopOnceFlag, [this] {Stop(); });
 	};
 
-	void AddTask(T&& task)//同步任务加入队列，如果队列满了就等待，会阻塞请求的线程
+	bool AddTask(const Task& task)
 	{
 		std::unique_lock<std::mutex> lck(m_mutex);
-		m_notFullCv.wait(lck, [this] {return m_isStop || !IsFull(); });
+		if (isSync.load())
+		{
+			m_notFullCv.wait(lck, [this] {return m_isStop || !IsFull(); });
+		}
 		if (m_isStop)
 		{
 			cout << "AddTask stop" << endl;
-			return;
+			return false;
 		}
-		m_queue.emplace(std::forward<T>(task));
+		if (IsFull())
+		{
+			return false;
+		}
+		m_queue.push(task);
 		m_notEmptyCv.notify_one();
+		return true;
 	};
 
-	void TakeTask(T& task)
+	void TakeTask(Task& task)
 	{
 		std::unique_lock<std::mutex> lck(m_mutex);
 		m_notEmptyCv.wait(lck, [this] {return m_isStop || !IsEmpty(); });
@@ -53,7 +69,13 @@ public:
 		m_notFullCv.notify_one();
 	};
 
-	size_t GetSize() const
+	void Clear()
+	{
+		std::queue<Task> q;
+		m_queue.swap(q);
+	}
+
+	size_t GetSize()
 	{
 		std::lock_guard<std::mutex> lck(m_mutex);
 		return m_queue.size();
@@ -62,7 +84,7 @@ public:
 	void Stop()
 	{
 		{
-			std::lock_guard<std::mutex> lck(m_mutex);    //等待锁释放后这里才会获取到锁，设置停止标志位
+			std::lock_guard<std::mutex> lck(m_mutex);    //锟饺达拷锟斤拷锟酵放猴拷锟斤拷锟斤拷呕锟斤拷取锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷停止锟斤拷志位
 			m_isStop = true;
 		}
 		m_notFullCv.notify_all();
@@ -75,8 +97,9 @@ private:
 	std::condition_variable m_notEmptyCv;
 	std::condition_variable m_notFullCv;
 	std::mutex m_mutex;
+	std::atomic_bool isSync;
 
-	std::queue<T> m_queue;
+	std::queue<Task> m_queue;
 
 	bool IsEmpty() const
 	{

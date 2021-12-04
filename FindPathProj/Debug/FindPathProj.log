@@ -1,0 +1,4 @@
+﻿  Dijstra.cpp
+E:\GitRepository\Own\CppRepository\FindPathProj\Dijstra.cpp(79,20): warning C4018: “>=”: 有符号/无符号不匹配
+E:\GitRepository\Own\CppRepository\FindPathProj\Dijstra.cpp(79,48): warning C4018: “>=”: 有符号/无符号不匹配
+  FindPathProj.vcxproj -> E:\GitRepository\Own\CppRepository\FindPathProj\Debug\FindPathProj.exe

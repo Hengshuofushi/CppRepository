@@ -1,0 +1,10 @@
+﻿D:\VisualStudio2019\Install\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ZmqDemo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ZmqServer.cpp
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init，该符号在函数 "private: void __thiscall ZmqServer::Run(void)" (?Run@ZmqServer@@AAEXXZ) 中被引用
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init_size，该符号在函数 "private: void __thiscall ZmqServer::SendReply(char const *)" (?SendReply@ZmqServer@@AAEXPBD@Z) 中被引用
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_data，该符号在函数 "private: void __thiscall ZmqServer::SendReply(char const *)" (?SendReply@ZmqServer@@AAEXPBD@Z) 中被引用
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_close，该符号在函数 "public: __thiscall ZmqServer::~ZmqServer(void)" (??1ZmqServer@@QAE@XZ) 中被引用
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_send，该符号在函数 "private: void __thiscall ZmqServer::SendReply(char const *)" (?SendReply@ZmqServer@@AAEXPBD@Z) 中被引用
+ZmqServer.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_recv，该符号在函数 "private: void __thiscall ZmqServer::Run(void)" (?Run@ZmqServer@@AAEXXZ) 中被引用
+E:\GitRepository\libs\libzmq-v141-x64-4_3_2\libzmq.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\GitRepository\Own\CppRepository\ZmqDemo\ZmqDemo\Debug\ZmqServer.exe : fatal error LNK1120: 6 个无法解析的外部命令
