@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.videoFrameCountTextBox = new System.Windows.Forms.TextBox();
+            this.parseButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,9 +67,9 @@
             // 
             this.groupBox1.Controls.Add(this.videoFrameCountTextBox);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(15, 56);
+            this.groupBox1.Location = new System.Drawing.Point(15, 84);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(763, 205);
+            this.groupBox1.Size = new System.Drawing.Size(763, 354);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PS Stream Attribute";
@@ -80,11 +81,21 @@
             this.videoFrameCountTextBox.Size = new System.Drawing.Size(100, 21);
             this.videoFrameCountTextBox.TabIndex = 3;
             // 
+            // parseButton
+            // 
+            this.parseButton.Location = new System.Drawing.Point(12, 41);
+            this.parseButton.Name = "parseButton";
+            this.parseButton.Size = new System.Drawing.Size(94, 23);
+            this.parseButton.TabIndex = 4;
+            this.parseButton.Text = "parse";
+            this.parseButton.UseVisualStyleBackColor = true;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.parseButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.fileNameTextBox);
             this.Controls.Add(this.chooseFileButton);
@@ -103,6 +114,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox videoFrameCountTextBox;
+        private System.Windows.Forms.Button parseButton;
     }
 }
 

@@ -1,0 +1,8 @@
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\ms_parser.csproj.GenerateResource.cache
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrameInfo.resources
