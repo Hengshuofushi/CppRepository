@@ -5,5 +5,4 @@ E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.P
 E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\ms_parser.csproj.GenerateResource.cache
 E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\ms_parser.csprojAssemblyReference.cache
 E:\GitRepository\Own\CppRepository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrameInfo.resources

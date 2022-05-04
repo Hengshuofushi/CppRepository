@@ -1,38 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    class FrameInfo
-    {
-        private int frameSeq;
-        private string frameType;
-
-        public FrameInfo(int seq, string type)
-        {
-            FrameSeq = seq;
-            FrameType = type;
-        }
-
-        public int FrameSeq
-        {
-            set { frameSeq = value; }
-            get { return frameSeq; }
-        }
-        public string FrameType
-        {
-            set { frameType = value; }
-            get { return frameType; }
-        }
-    }
     public partial class MainWindow : Form
     {
         public MainWindow()
@@ -53,7 +25,9 @@ namespace WindowsFormsApp1
                 fileNameTextBox.Text = filePath;
                 FileStream fs = (FileStream)dialog.OpenFile();
                 parseMediaStream(fs);
+                fs.Close();
             }
+            
         }
 
         private void parseMediaStream(FileStream fs)
