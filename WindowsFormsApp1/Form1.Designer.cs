@@ -51,7 +51,7 @@
             this.parseButton = new System.Windows.Forms.Button();
             this.parseResultLabel = new System.Windows.Forms.Label();
             this.frameTypeLabel = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.hexRichTextBox = new System.Windows.Forms.RichTextBox();
             this.frameTypeTextBox = new System.Windows.Forms.TextBox();
             this.frameSizeTextBox = new System.Windows.Forms.TextBox();
             this.frameSizeLabel = new System.Windows.Forms.Label();
@@ -95,7 +95,7 @@
             this.groupBox1.Controls.Add(this.frameSizeTextBox);
             this.groupBox1.Controls.Add(this.frameSizeLabel);
             this.groupBox1.Controls.Add(this.frameTypeTextBox);
-            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.hexRichTextBox);
             this.groupBox1.Controls.Add(this.frameTypeLabel);
             this.groupBox1.Controls.Add(this.frameInfoTabControl);
             this.groupBox1.Controls.Add(this.bFrameCountTextBox);
@@ -286,14 +286,14 @@
             this.frameTypeLabel.TabIndex = 15;
             this.frameTypeLabel.Text = "Frame Type:";
             // 
-            // richTextBox1
+            // hexRichTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(214, 113);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(539, 231);
-            this.richTextBox1.TabIndex = 16;
-            this.richTextBox1.Text = "";
+            this.hexRichTextBox.Location = new System.Drawing.Point(214, 113);
+            this.hexRichTextBox.Name = "hexRichTextBox";
+            this.hexRichTextBox.ReadOnly = true;
+            this.hexRichTextBox.Size = new System.Drawing.Size(539, 231);
+            this.hexRichTextBox.TabIndex = 16;
+            this.hexRichTextBox.Text = "";
             // 
             // frameTypeTextBox
             // 
@@ -370,7 +370,7 @@
         private System.Windows.Forms.TextBox frameSizeTextBox;
         private System.Windows.Forms.Label frameSizeLabel;
         private System.Windows.Forms.TextBox frameTypeTextBox;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox hexRichTextBox;
         private System.Windows.Forms.Label frameTypeLabel;
     }
 }
