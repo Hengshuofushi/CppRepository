@@ -1,0 +1,35 @@
+#pragma once
+
+using Timestamp = unsigned long long;
+
+const int ERRCODE_SUCCESS = 0;
+const int ERRCODE_FAILED = -1;
+
+enum DaoRecType
+{
+    DAO_REC_TYPE_P2P_AUDIO,
+    DAO_REC_TYPE_P2P_VIDEO,
+    DAO_REC_TYPE_PTT_AUDIO,
+    DAO_REC_TYPE_PTT_VIDEO,
+    DAO_REC_TYPE_IPC_VIDEO,
+    DAO_REC_TYPE_UPLOAD_VIDEO,
+    DAO_REC_TYPE_UE_UPLOAD,
+    DAO_REC_TYPE_RECORDER_UPLOAD,
+    DAO_REC_TYPE_SDS,
+};
+
+enum CodecType
+{
+    CODEC_TYPE_AMR,
+    CODEC_TYPE_H264
+};
+
+enum DataGeneratorType
+{
+    DATA_GENERATOR_REAL_REC = 0,
+    DATA_GENERATOR_UE_UPLOAD,
+    DATA_GENERATOR_IPC_UPLOAD,
+    DATA_GENERATOR_SDS,
+    DATA_GENERATOR_DICT,
+    DATA_GENERATOR_BUTT
+};
