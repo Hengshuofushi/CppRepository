@@ -1,0 +1,9 @@
+E:\GitRepository\ms_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\GitRepository\ms_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\GitRepository\ms_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\GitRepository\ms_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainWindow.resources
